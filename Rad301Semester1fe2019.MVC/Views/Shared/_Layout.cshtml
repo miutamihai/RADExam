@@ -30,6 +30,12 @@
                             @Html.ActionLink("List overdue books", "ListOverdueBooks", "Librarian")
                         }
                     </li>
+                    <li>
+                        @if(User.IsInRole("Librarian"))
+                        {
+                            @Html.ActionLink("Loan Book", "LoanBook", "Librarian")
+                        }
+                    </li>
                 </ul>
                 @Html.Partial("_LoginPartial")
             </div>

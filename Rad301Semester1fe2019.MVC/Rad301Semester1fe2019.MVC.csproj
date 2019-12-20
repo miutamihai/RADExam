@@ -254,6 +254,7 @@
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Views\Librarian\ListOverdueBooks.cshtml" />
+    <Content Include="Views\Librarian\LoanBook.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
