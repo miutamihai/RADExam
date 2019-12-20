@@ -185,6 +185,11 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201912201122207_MVCInitialMigration.cs" />
+    <Compile Include="Migrations\201912201122207_MVCInitialMigration.Designer.cs">
+      <DependentUpon>201912201122207_MVCInitialMigration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
@@ -269,6 +274,15 @@
       <Project>{ac210e17-3c6e-46c0-8980-c0769673fa0d}</Project>
       <Name>ActivityTracker</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Rad301Semester1fe2019.BusinessDomain.Classes\Rad301Semester1fe2019.BusinessDomain.Classes.csproj">
+      <Project>{98ccd95b-1917-4979-b6b1-280bbafd2eb2}</Project>
+      <Name>Rad301Semester1fe2019.BusinessDomain.Classes</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201912201122207_MVCInitialMigration.resx">
+      <DependentUpon>201912201122207_MVCInitialMigration.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

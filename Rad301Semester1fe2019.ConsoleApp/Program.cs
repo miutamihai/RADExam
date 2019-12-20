@@ -11,7 +11,7 @@ namespace Rad301Semester1fe2019.ConsoleApp
     {
         static void Main(string[] args)
         {
-            Activity.Track("RAD301fe2019 Exam Started");
+            Activity.Track("Authentification setup");
            
         }
     }
