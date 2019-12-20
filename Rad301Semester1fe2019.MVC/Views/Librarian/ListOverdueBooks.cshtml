@@ -1,0 +1,44 @@
+﻿@model IEnumerable<Rad301Semester1fe2019.BusinessDomain.Classes.Classes.Loan>
+
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Book.Title)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Book.ISBN)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Member.FirstName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Member.LastName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.LoanIssueDate)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Book.Title)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Book.ISBN)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Member.FirstName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Member.LastName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.LoanIssueDate)
+        </td>
+    </tr>
+}
+
+</table>

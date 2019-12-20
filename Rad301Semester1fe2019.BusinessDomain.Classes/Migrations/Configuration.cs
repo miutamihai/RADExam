@@ -14,10 +14,7 @@ namespace Rad301Semester1fe2019.BusinessDomain.Classes.Migrations
 
         protected override void Seed(Rad301Semester1fe2019.BusinessDomain.Classes.Context context)
         {
-            //  This method will be called after migrating to the latest version.
-
-            //  You can use the DbSet<T>.AddOrUpdate() helper extension method 
-            //  to avoid creating duplicate seed data.
+            //  The data was seeded using the SQL server explorer interface
         }
     }
 }

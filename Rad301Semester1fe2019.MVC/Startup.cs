@@ -13,8 +13,8 @@ namespace Rad301Semester1fe2019.MVC
         public void Configuration(IAppBuilder app)
         {
             Activity.Track("RAD301fe2019 Started");
-            SeedRoles();
             ConfigureAuth(app);
+            SeedRoles();
         }
         private void SeedRoles()
         {
