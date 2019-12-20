@@ -21,7 +21,7 @@ namespace Rad301Semester1fe2019.BusinessDomain.Classes.Classes
         public string Title { get; set; }
         public string ISBN { get; set; }
         public string Author { get; set; }
-        public Enum LoanType { get; set; }
+        public string LoanType { get; set; }
         public int LoanDuration { get; set; }
     }
 }

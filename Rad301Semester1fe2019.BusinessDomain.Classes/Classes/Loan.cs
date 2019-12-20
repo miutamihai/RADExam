@@ -23,6 +23,6 @@ namespace Rad301Semester1fe2019.BusinessDomain.Classes.Classes
         public int BookID { get; set; }
         [ForeignKey("BookID")]
         public virtual Book Book { get; set; }
-        public int LoanIssueDate { get; set; }
+        public DateTime LoanIssueDate { get; set; }
     }
 }
